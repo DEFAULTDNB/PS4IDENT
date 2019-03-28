@@ -1390,8 +1390,8 @@ switch (x) {
 	document.getElementById("alt4").style.display="none";
 	document.getElementById("alt5").style.display="none";
 	break;
-	case"dut":case"dut-":
-	case"DUT":case"DUT-":
+	case"dut":case"dut-":case"duh":case"duh-":case"duh-t":
+	case"DUT":case"DUT-":case"DUH":case"DUH-":case"DUH-T":
 	document.getElementById("info").style.color = "lime";
 	document.getElementById("info").innerHTML = ("[DEVKIT OR TESTKIT] MORE INFO NEEDED");
 	document.getElementById("image").src=dev;
@@ -1404,6 +1404,8 @@ switch (x) {
 	break;
 	case"duh-d7":case"duh-d70":case"duh-d700":case"duh-d7000":case"duh-d7000a":case"duh-d7000aa":
 	case"DUH-D7":case"DUH-D70":case"DUH-D700":case"DUH-D7000":case"DUH-D7000A":case"DUH-D7000AA":
+	case"duh-t7":case"duh-t70":case"duh-t700":case"duh-t7000":
+	case"DUH-T7":case"DUH-T70":case"DUH-T700":case"DUH-T7000":
 	document.getElementById("info").style.color = "lime";
 	document.getElementById("info").innerHTML = ("[NEO DEVKIT] FIRMWARE SELECTABLE");
 	document.getElementById("image").src=neo;
@@ -1413,8 +1415,8 @@ switch (x) {
 	document.getElementById("alt4").style.display="none";
 	document.getElementById("alt5").style.display="none";	
 	break;
-	case"duh-t":case"duh-t1":case"duh-t10":case"duh-t12":case"duh-t100":case"duh-t120":case"duh-t1000":case"duh-t1200":case"duh-t1000aa":case"duh-t1000ja":case"duh-t1200":case"duh-t1200aa":case"duh-t1200ja":
-	case"DUH-T":case"DUH-T1":case"DUH-T10":case"DUH-T12":case"DUH-T100":case"DUH-T120":case"DUH-T1000":case"DUH-T1200":case"DUH-T1000AA":case"DUH-T1000JA":case"DUH-T1200":case"DUH-T1200AA":case"DUH-T1200JA":
+	case"duh-t1":case"duh-t10":case"duh-t12":case"duh-t100":case"duh-t120":case"duh-t1000":case"duh-t1200":case"duh-t1000aa":case"duh-t1000ja":case"duh-t1200":case"duh-t1200aa":case"duh-t1200ja":
+	case"DUH-T1":case"DUH-T10":case"DUH-T12":case"DUH-T100":case"DUH-T120":case"DUH-T1000":case"DUH-T1200":case"DUH-T1000AA":case"DUH-T1000JA":case"DUH-T1200":case"DUH-T1200AA":case"DUH-T1200JA":
 	case"dut-t":case"dut-ta":case"dut-tah":case"dut-tah0":case"dut-tah00":case"dut-tah00j":case"dut-tah00jk":
 	case"DUT-T":case"DUT-TA":case"DUT-TAH":case"DUT-TAH0":case"DUT-TAH00":case"DUT-TAH00J":case"DUT-TAH00JK":
 	document.getElementById("info").style.color = "lime";
@@ -1425,6 +1427,18 @@ switch (x) {
 	document.getElementById("alt3").style.display="none";
 	document.getElementById("alt4").style.display="none";
 	document.getElementById("alt5").style.display="none";
+	break;
+	case"duh-t2":case"duh-t20":case"duh-t200":case"duh-t2000":
+	case"DUH-T2":case"DUH-T20":case"DUH-T200":case"DUH-T2000":
+	document.getElementById("info").style.color = "lime";
+	document.getElementById("info").innerHTML = ("[SLIM TESTKIT] FIRMWARE SELECTABLE");
+	document.getElementById("image").src=test;
+	document.getElementById("alt1").style.display="none";
+	document.getElementById("alt2").style.display="none";
+	document.getElementById("alt3").style.display="none";
+	document.getElementById("alt4").style.display="none";
+	document.getElementById("alt5").style.display="none";
+	
 	break;
 	case"dv":case"DV":case"dvk":case"DVK":case"dvkt":case"DVKT":case"dvkt-":case"DVKT-":case"dvkt-p":case"DVKT-P":
 	case"dvkt-pk":case"DVKT-PK":case"dvkt-pk0":case"DVKT-PK0":
